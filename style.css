@@ -51,6 +51,8 @@ body{
     margin-bottom:1rem;
     
 }
+
+
 .main-content p{
     text-align:justify;
 }
@@ -58,6 +60,7 @@ body{
     width:100%;
     margin:0rem auto;
 }
+
 .main-content p{
     text-align:justify;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
