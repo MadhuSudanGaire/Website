@@ -14,7 +14,7 @@ body{
     top: 4rem;
     opacity: 0.8;
     height: 15rem;
-    background: linear-gradient(white,#dedeed);
+    background: linear-gradient(white,#f4f4f7);
     overflow:hidden;
 }
 .ads2{
@@ -24,7 +24,7 @@ body{
     top: 6rem;
     opacity: 0.8;
     height: 15rem;
-    background: linear-gradient(white,#dedeed);
+    background: linear-gradient(rgb(245 245 248 / 75%),#f4f4f7);
     overflow:hidden;
 }
 .ads1 p,.ads2 p{
@@ -47,41 +47,50 @@ body{
 
 }
 .main-content h1{
-    text-align:center;
-    margin-bottom:1rem;
-    
+    text-align:left;
+    margin-bottom:2rem;
 }
-
-
 .main-content p{
     text-align:justify;
 }
 .main-content a img{
     width:100%;
-    margin:0rem auto;
+    margin:1rem auto;
 }
-
+.main-content .imgA{
+width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
 .main-content p{
     text-align:justify;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:1.1rem;
+    font-size:1.3rem;
     
 }
 .main-content h2{
     text-align: center; 
     margin-top: 1rem;
-    margin-bottom:3rem;
+    margin-bottom:1rem;
 }
-.main-content ul{
+.main-content ul,.main-content ol{
     padding:1rem;
 }
-.main-content ul li{
-    text-align:justify;
+.main-content ul li,.main-content ol li{
+    text-align:left;
     margin:1rem;
-    font-size:1.1rem;
+    font-size:1.3rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.main-content .picB{
+    width:100%;
+   margin-top:2rem;
+   margin-bottom:2rem;
+}
+.main-content a:hover{
+    color:green;
+}
 .sub-content{
     width:30%;
 }
