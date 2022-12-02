@@ -92,10 +92,7 @@ width: 100%;
 .sub-content{
     width:30%;
 }
-.sub-content1{
-    position:sticky;
-    top:5rem;
-}
+
 .sub-content1 a img{
     width:100%;
   
@@ -106,6 +103,7 @@ width: 100%;
 .sub-content1 h2{
     text-align: left; 
     margin-bottom: 0rem;
+   
 }
 
  .sub-content1 p{
@@ -116,7 +114,10 @@ width: 100%;
 .sub-content1 a:hover{
 color:green;
 }
-
+.sub-content1{
+    position:sticky;
+    top:5rem;
+}
 .part1 p{
     text-align:center;
     opacity:0.6;
