@@ -8,22 +8,26 @@ body{
     box-sizing: border-box;
 }
 .ads1{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 4rem;
+    position:relative;
+    top:4rem;
+   
+    height: auto;
+    clear: both;
+    text-align: center;
     opacity: 0.8;
-    height: 15rem;
+   
     background: linear-gradient(white,#f4f4f7);
     overflow:hidden;
 }
 .ads2{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 6rem;
+    position:relative;
+    top:6rem;
+   
+    height: auto;
+    clear: both;
+    text-align: center;
     opacity: 0.8;
-    height: 15rem;
+   
     background: linear-gradient(rgb(245 245 248 / 75%),#f4f4f7);
     overflow:hidden;
 }
@@ -86,7 +90,7 @@ width: 70%;
 .sub-content{
     width:30%;
 }
-.sub-content1{
+.part1{
     position:sticky;
     top:5rem;
 }
@@ -192,7 +196,28 @@ color:green;
         transform:translate(-50%);
         width: 70%;
     }
-    .part1{
-        display:none;
+   .part1{
+       display:none;
+   }
+}
+@media screen and (max-width:560px){
+    .main-container{
+        position:relative;
+        width: 90%;
+        
+        margin: auto;
+        display:block;
+        top:5rem;
+    }
+    .main-content {
+        width: 100%;
+        margin-right: 0rem;
+    }
+    .main-content h3{
+        text-align:left;
+    }
+    .sub-content {
+        width: 100%;
+        margin-top: 2rem;
     }
 }
