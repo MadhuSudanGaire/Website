@@ -1,0 +1,167 @@
+body {
+   
+    font-style:italic;
+
+}
+
+.container {
+
+    width:50%;
+    margin:0px auto;
+}
+.col-lg-12 {
+    margin-top: 2rem;
+}
+.col-lg-12 h2{
+   text-align: left;
+font-size: 2rem;
+display: flex;
+justify-content: center;
+}
+
+.input-group{
+    display:flex;
+    justify-content: center;
+}
+col-lg-12{
+    font-size: 2rem;;
+}
+input[type=text]{
+    font-size:1.2rem;
+    text-align: center;
+    width:80%
+  
+}
+
+.form-control {
+    font-size: 1.5rem;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    padding: 5px;
+    font-style: italic;
+   width:80%;
+}
+.form-control:hover{
+    border:1px solid rgb(10, 10, 10);
+ 
+}
+.input-group button {
+    font-size: 1.9rem;
+    border: 1px solid rgb(179, 177, 177);
+    /* border-radius: 5px; */
+    cursor:pointer;
+}
+.input-group button:hover{
+    background-color:rgb(250, 249, 249);
+    color:rgb(12, 12, 12);
+    transform: scale(1.08);
+}
+img {
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border:1px solid black;
+    border-radius:10px;
+}
+.row.formSmall {
+    margin: 3rem 2rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+.col-lg-9 h2 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    font-family: initial;
+}
+p{
+    display:none;
+}
+.table{
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.table th,.table td {
+    border: 1px solid black;
+    border-collapse:unset;
+  }
+  a{
+      text-decoration: none;
+  }
+  a:hover{
+      color:green;
+    border-bottom:1px solid black;
+  }
+  tbody {
+    height: 9rem;
+}
+@media screen and (max-width: 1200px){
+.container{
+    width:60%;
+}
+}
+@media screen and (max-width: 1060px){
+    .container{
+        width:70%;
+    }
+    }
+    @media screen and (max-width: 850px){
+        .container {
+            width: 90%;
+        }
+        }
+        @media screen and (max-width: 660px){
+            .col-lg-12 h2 {             
+                font-size: 1.5rem;
+            }
+            }
+            @media screen and (max-width: 500px){
+                .col-lg-12 h2 {             
+                    font-size: 1.2rem;
+                }
+                input[type=text] {
+                    font-size: 1rem;
+                    text-align: center;
+                    width: 80%
+                     
+                }
+                .col-lg-9 h2 {
+                    display: flex;
+                    justify-content: center;
+                    text-align: left;
+                    margin-top: 1rem;
+                    font-size: 1rem;
+                    text-align: left;
+                    opacity: 0.7;
+                }
+                .table {
+                    width: 85%;
+                    border-collapse: collapse;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 1rem;
+                    margin: 0 auto;
+                }
+                tbody {
+                    height: 8rem;
+                }
+                }
+                @media screen and (max-width: 400px){
+                    .col-lg-12 h2 {             
+                        font-size: 1.1rem;
+                    }
+                    }
