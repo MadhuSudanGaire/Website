@@ -73,6 +73,22 @@ h2.head2 {
 a:hover{
     color:green;
 }
+.main-content ul{
+    padding:0rem;
+}
+.main-content ul li{
+    text-align:justify;
+    margin:1rem;
+    font-size:1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a.ahref{
+    font-size:1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(45, 109, 204);
+    text-decoration:none;
+   font-style:italic;
+}
 .sub-content{
     width:30%;
 }
@@ -92,6 +108,9 @@ a:hover{
 .sub-content1 h2{
     text-align: left; 
     margin-bottom: 0rem;
+    font-weight:420;
+    opacity:0.7;
+    font-family: var(--wp--preset--font-family--system-font);
 }
 
  .sub-content1 p{
