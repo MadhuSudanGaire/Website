@@ -72,6 +72,10 @@ b{
     font-style:italic;
   
 }
+.boldness{
+    font-style:normal;
+    opacity:0.6;
+}
 .main-content a{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    color:rgb(45, 109, 204);
