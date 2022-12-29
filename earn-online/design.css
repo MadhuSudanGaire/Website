@@ -52,13 +52,16 @@ body{
     width:100%;
 }
 img.imgB{
-    width:60%;
+    width:600%;
 }
 
-.main-content ul{
+.main-content ul,.main-content ol{
     padding:0rem;
 }
-.main-content ul li{
+.main-content ol{
+    font-size:1.4rem;
+}
+.main-content ul li,.main-content ol li{
     text-align:justify;
     margin:1rem;
     font-size:1.4rem;
@@ -71,7 +74,20 @@ img.imgB{
     font-size:1.5rem;
     margin:2rem auto;
 }
-
+p.paraC{
+    font-size:1.3rem;
+}
+        .headC{
+            text-align:left;
+            display:flex;
+            justify-content:left;
+            text-align: left; 
+            font-size:2rem;
+            font-weight:420;
+            opacity:0.9;
+            margin:3rem auto 2rem auto;
+            font-family: var(--wp--preset--font-family--system-font);
+        }
 .main-content h1,.main-content h2{
     display:flex;
     justify-content:center;
@@ -83,6 +99,10 @@ img.imgB{
 }
 h2.head2 {
     font-size: 2.3rem;
+}
+a.ahrefC{
+    font-size:1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 a:hover{
     color:green;
