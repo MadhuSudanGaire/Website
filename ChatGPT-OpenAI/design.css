@@ -70,7 +70,12 @@ body{
 h2.head2 {
     font-size: 2.3rem;
 }
-
+a.ahrefD{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.2rem;
+   font-style:italic;
+   color:blue;
+}
 a:hover{
     color:green;
 }
@@ -93,7 +98,7 @@ a.ahref{
 .sub-content{
     width:30%;
 }
-.part1{
+.sub-content1{
     position:sticky;
     top:5rem;
 }
