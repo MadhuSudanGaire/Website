@@ -54,16 +54,12 @@ body{
 img.discover-img{
     width:40%;   
 }
-.main-content ul{
-    padding:0rem;
-}
 .main-content ul li{
     text-align:justify;
     margin:0.5rem;
     font-size:1.4rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 .main-content p{
     text-align:justify;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -87,6 +83,22 @@ a.table-ahref{
     color:green;
 }
 a.table-ahref:hover{
+    color:rgb(96, 29, 219);
+}
+ul.table-u-AA {
+    padding: 0rem 1rem;
+}
+ul.table-u-A {
+    padding: 0rem 2rem;
+}
+b.boldness{
+    font-weight:530;
+}
+a.table-ahref-A{
+    text-decoration: none;
+    color:green;
+}
+a.table-ahref-A:hover{
     color:rgb(96, 29, 219);
 }
 a.ahrefC{
@@ -217,6 +229,9 @@ color:green;
     }
     .main-content h3{
         text-align:left;
+    }
+    h2.heading2{
+        font-size:1.7rem;
     }
     .sub-content {
         width: 100%;
