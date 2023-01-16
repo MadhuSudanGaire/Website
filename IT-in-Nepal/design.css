@@ -60,7 +60,7 @@ body{
 
 .main-content h1,.main-content h2{
     display:flex;
-    justify-content:center;
+    justify-content:left;
     text-align: left; 
     font-size:2rem;
     font-weight:420;
@@ -70,7 +70,23 @@ body{
 h2.head2 {
     font-size: 2.3rem;
 }
-
+a{
+    font-size:1.2rem;
+    color:blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a.table-ahref{
+    text-decoration: none;
+    color:green;
+}
+a.table-ahref:hover{
+    color:rgb(96, 29, 219);
+}
+p.bordered-para{
+    border:3px dotted green;
+    padding:1rem;
+    text-align: center;
+}
 a:hover{
     color:green;
 }
@@ -78,7 +94,7 @@ a:hover{
     padding:0rem;
 }
 .main-content ul li{
-    text-align:justify;
+    text-align:left;
     margin:1rem;
     font-size:1.3rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -93,7 +109,7 @@ a.ahref{
 .sub-content{
     width:30%;
 }
-.part1{
+.sub-content1{
     position:sticky;
     top:5rem;
 }
