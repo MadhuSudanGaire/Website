@@ -81,6 +81,8 @@ a{
 a.table-ahref{
     text-decoration: none;
     color:green;
+    text-align: left;
+    font-size:1.3rem;
 }
 a.table-ahref:hover{
     color:rgb(96, 29, 219);
@@ -97,7 +99,6 @@ b.boldness{
 a.table-ahref-A{
     text-decoration: none;
     color:green;
-    text-align:left;
 }
 a.table-ahref-A:hover{
     color:rgb(96, 29, 219);
