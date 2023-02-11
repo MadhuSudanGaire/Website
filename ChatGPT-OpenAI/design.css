@@ -60,14 +60,27 @@ body{
 p.paraA{
     font-size:1.3rem;
 }
+p.back-para {
+    background-color: rgba(65, 63, 63, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+  }
+  a{
+    font-size:1.3rem;
+    color:blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:none;
+}
+
 a.table-ahref{
     text-decoration: none;
     color:green;
     text-align: left;
-    font-size:1.2rem;
-    display:flex;
-    justify-content: left;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.3rem;
 }
 a.table-ahref:hover{
     color:rgb(96, 29, 219);
