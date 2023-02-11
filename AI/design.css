@@ -35,6 +35,15 @@ body{
     text-align:center;
     margin-top: 6rem;
 }
+p.back-para {
+    background-color: rgba(65, 63, 63, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+  }
 .main-container{
     position:relative;
     width: 90%;
