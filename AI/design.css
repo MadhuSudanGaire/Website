@@ -87,7 +87,9 @@ a{
     color:blue;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+p.paraD{
+    text-align:center;
+}
 a.table-ahref{
     text-decoration: none;
     color:green;
