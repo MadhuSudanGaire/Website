@@ -278,8 +278,14 @@ color:green;
         width: 100%;
         margin-right: 0rem;
     }
+    .main-content h1, .main-content h2 {
+        font-size: 1.5rem;
+    }
     .main-content h3{
         text-align:left;
+    }
+    .main-content ul li {
+        text-align: left;
     }
     .sub-content {
         width: 100%;
