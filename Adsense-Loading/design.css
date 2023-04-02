@@ -60,6 +60,9 @@ img.discover-img{
     font-size:1.4rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.main-content ul li.table-li {
+    text-align: left;
+}
 .main-content p{
     text-align:justify;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -118,7 +121,7 @@ img.small-img{
     display:flex;
     justify-content:left;
     text-align: left; 
-    font-size:2rem;
+    font-size:1.8rem;
     font-weight:420;
     opacity:0.7;
     font-family: var(--wp--preset--font-family--system-font);
