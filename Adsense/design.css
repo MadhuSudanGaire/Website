@@ -6,7 +6,6 @@ body{
     width:100%;
     height:100%;
     box-sizing: border-box;
-    background-color:white;
 }
 .ads1{
     position:relative;
@@ -17,7 +16,7 @@ body{
     text-align: center;
     opacity: 0.8;
    
-    background: linear-gradient(white,#e8e8e9);
+    background: linear-gradient(white,#f4f4f7);
     overflow:hidden;
 }
 .ads2{
@@ -29,7 +28,7 @@ body{
     text-align: center;
     opacity: 0.8;
    
-    background: linear-gradient(white,#e8e8e9);
+    background: linear-gradient(rgb(245 245 248 / 75%),#f4f4f7);
     overflow:hidden;
 }
 .ads1 p,.ads2 p{
@@ -44,67 +43,105 @@ body{
     display:flex;
     text-align:justify;
     top:5rem;
-
 }
 .main-content{
    width:70%;
  margin-right:5rem;
-
 }
-.main-content h1{
-    text-align:center;
-    margin-bottom:1rem;
-    
-}
-
-
-.main-content p{
-    text-align:justify;
-}
-.main-content a img{
+.main-content img{
     width:100%;
-    margin:0rem auto;
 }
-
-.main-content p{
-    text-align:justify;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:1.1rem;
-    
-}
-.latest p{
-    text-align:center;
-    font-size:1.3rem;
-    border:2px dotted green;
-    padding:10px;
-}
-.latest p a{
-    text-decoration: none;
-    cursor:pointer;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:green;
-}
-.latest p a:hover{
-    color:rgb(28, 50, 145);
-}
-.latest p:hover{
-    scale:1.03;
-}
-.main-content h2{
-    text-align: center; 
-    margin-top: 1rem;
-    margin-bottom:3rem;
-}
-.main-content ul{
-    padding:1rem;
+img.discover-img{
+    width:40%;   
 }
 .main-content ul li{
     text-align:justify;
-    margin:1rem;
-    font-size:1.1rem;
+    margin:0.5rem;
+    font-size:1.4rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.main-content ul li.table-li {
+    text-align: left;
+}
+.main-content p{
+    text-align:justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.3rem;
+    margin:2rem auto;
+}
+p.paraC{
+    display:flex;
+    justify-content:left;
+    text-align: left; 
+    font-size:1.7rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+p.back-para {
+    background-color: rgba(202, 199, 199, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(143, 143, 143, 0.1);
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    text-align: justify;
+    margin:0 auto;
+  }
+a{
+    font-size:1.2rem;
+    color:blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a.table-ahref{
+    text-decoration: none;
+    color:green;
+    text-align: left;
+    font-size:1.3rem;
+}
+a.table-ahref:hover{
+    color:rgb(96, 29, 219);
+}
+ul.table-u-AA {
+    padding: 0rem 1rem;
+}
+ul.table-u-A {
+    padding: 0rem 2rem;
+}
+b.boldness{
+    font-weight:530;
+}
+a.table-ahref-A{
+    text-decoration: none;
+    color:green;
+}
+a.table-ahref-A:hover{
+    color:rgb(96, 29, 219);
+}
+a.ahrefC{
+    margin-bottom:0rem;
+}
+p.bordered-para{
+    border:3px dotted green;
+    padding:1rem;
+    text-align: center;
+}
+img.small-img{
+    width:70%;
+}
+.main-content h1,.main-content h2{
+    display:flex;
+    justify-content:left;
+    text-align: left; 
+    font-size:1.8rem;
+    font-weight:420;
+    opacity:0.7;
+    font-family: var(--wp--preset--font-family--system-font);
+}
+h2.head2 {
+    font-size: 2.3rem;
+}
+a:hover{
+    color:green;
+}
 .sub-content{
     width:30%;
 }
@@ -124,7 +161,7 @@ body{
 .sub-content1 h2{
     text-align: left; 
     margin-bottom: 0rem;
-    font-size:1.4rem;
+    
     font-weight:490;
 
     font-family: var(--wp--preset--font-family--system-font);
@@ -208,6 +245,9 @@ color:green;
     .main-content h3{
         text-align:left;
     }
+    h2.heading2{
+        font-size:1.7rem;
+    }
     .sub-content {
         width: 100%;
         margin-top: 2rem;
@@ -223,7 +263,28 @@ color:green;
         transform:translate(-50%);
         width: 70%;
     }
-    .part1{
-        display:none;
+   .part1{
+       display:none;
+   }
+}
+@media screen and (max-width:560px){
+    .main-container{
+        position:relative;
+        width: 90%;
+        
+        margin: auto;
+        display:block;
+        top:5rem;
+    }
+    .main-content {
+        width: 100%;
+        margin-right: 0rem;
+    }
+    .main-content h3{
+        text-align:left;
+    }
+    .sub-content {
+        width: 100%;
+        margin-top: 2rem;
     }
 }
